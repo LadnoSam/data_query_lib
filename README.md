@@ -33,7 +33,7 @@ project/
 Install dependencies:
 
 ```bash
-pip install flask psycopg2 minio pytz
+pip install flask psycopg2 minio 
 ```
 
 ---
@@ -104,7 +104,7 @@ http://localhost:5000
 **Features:**
 
 - 🔍 Search by file name  
-- 🏷️ Filter by content type (e.g., `.json`, `.csv`)  
+- 🏷️ Filter by content type (`.json`, `.csv`)  
 - 📅 Filter by upload date range  
 - 📊 View metadata in a clean, responsive table
 
@@ -149,8 +149,6 @@ python task.py
 # Then go to browser:
 http://localhost:5000
 
-# Search for files like:
-http://localhost:5000?name=report&type=csv
 ```
 
 ---
@@ -163,7 +161,3 @@ http://localhost:5000?name=report&type=csv
 - All logic is centralized in `functions.py`
 
 ---
-
-## 🤝 Contributing
-
-Found a bug or have an idea? Open an issue or submit a PR!
